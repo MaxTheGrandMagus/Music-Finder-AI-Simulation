@@ -49,7 +49,7 @@ const Step1Genre = (props) => {
   return (
     <section className="step1genre">
       
-      <h1>Музыка максона</h1>
+      <h1>Музыка MaxON</h1>
 
       <div className="choose_container">
         <p>Выберите любимый жанр</p>

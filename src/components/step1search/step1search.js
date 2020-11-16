@@ -49,7 +49,7 @@ class Step1Search extends Component {
     return (
       <section className="step1search">
         
-        <h1>Музыка максона</h1>
+        <h1>Музыка MaxON</h1>
   
         <div className="choose_container">
           <p>Поиск</p>

@@ -10,7 +10,7 @@ const Step1 = (props) => {
   return (
     <section className="step1">
       
-      <h1>Музыка максона</h1>
+      <h1>Музыка MaxON</h1>
 
       <div className="choose_container">
         <p>Критерии отбора музыки</p>

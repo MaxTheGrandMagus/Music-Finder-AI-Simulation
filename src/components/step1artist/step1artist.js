@@ -37,7 +37,7 @@ const Step1Artist = (props) => {
   return (
     <section className="step1artist">
       
-      <h1>Музыка максона</h1>
+      <h1>Музыка MaxON</h1>
 
       <div className="choose_container">
         <p>Зарубежный исполнитель?</p>
