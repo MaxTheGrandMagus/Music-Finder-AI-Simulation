@@ -17,11 +17,22 @@ import './step1artist.css';
 
 const Step1Artist = (props) => {
 
-  const [foreign, setforeign] = useState();
-  const handleForeign = () => {
-    setforeign(!foreign);
-    console.log(foreign);
+  const [artist, setArtist] = useState('');
+  const handleArtist = (event) => {
+    setArtist(event.target.value);
+    console.log(event.target.value);
   };
+
+  function renderSwitch(param) {
+    switch(param) {
+      case 'foreign':
+        return <Foreign />;
+      case 'nonforeign':
+        return <NonForeign />;
+      default:
+        return;
+    }
+  }
 
   return (
     <section className="step1artist">
@@ -31,9 +42,10 @@ const Step1Artist = (props) => {
       <div className="choose_container">
         <p>Зарубежный исполнитель?</p>
         <div id="choose_container-answers">
-          <button onClick={handleForeign} className="button success">{ foreign === true ? <p>Да</p> : <p>Нет</p>}</button>
+          <button value="foreign" onClick={handleArtist} className="button success">Да</button>
+          <button value="nonforeign" onClick={handleArtist} className="button denial">Нет</button>
         </div>
-        { foreign === true ? <Foreign /> : <NonForeign /> }
+        { renderSwitch(artist) }
       </div>
 
     </section>
