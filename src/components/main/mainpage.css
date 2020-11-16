@@ -1,0 +1,89 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#d3cce3), to(#e9e4f0));
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  padding: 100px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500px;
+  color: #2B2B2B;
+}
+
+.main .choose_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.main .choose_container p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.main .choose_container #choose_container-answers {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.main .choose_container #choose_container-answers .button {
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.main .choose_container #choose_container-answers .success {
+  border: 2px solid #28a745;
+  background-color: transparent;
+}
+
+.main .choose_container #choose_container-answers .success:hover {
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.main .choose_container #choose_container-answers .denial {
+  border: 2px solid #DC3545;
+  background-color: transparent;
+}
+
+.main .choose_container #choose_container-answers .denial:hover {
+  cursor: pointer;
+  background-color: #DC3545;
+  color: #fff;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+/*# sourceMappingURL=mainpage.css.map */

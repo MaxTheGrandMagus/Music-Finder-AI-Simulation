@@ -1,0 +1,138 @@
+.step1search {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#d3cce3), to(#e9e4f0));
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  background-size: cover;
+  padding: 100px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.step1search h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500px;
+  color: #2B2B2B;
+}
+
+.step1search .choose_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.step1search .choose_container p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.step1search .choose_container .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.step1search .choose_container .videos-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.step1search .choose_container .field input {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #2B2B2B;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.step1search .choose_container .field input:focus {
+  border: 3px solid #2B2B2B;
+}
+
+.step1search .choose_container .embed {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.step1search .choose_container .embed iframe {
+  width: 800px;
+  height: 400px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.step1search .choose_container .segment {
+  text-align: center;
+}
+
+.step1search .choose_container .video-item {
+  width: 25%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  margin: 50px;
+}
+
+.step1search .choose_container .video-item .header {
+  margin-top: 10px;
+}
+
+.step1search .choose_container .video-item.item img {
+  max-width: 300px;
+  max-height: 250px;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.step1search .choose_container #loading {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=step1search.css.map */
